@@ -1,1 +1,2 @@
-node.js project
+Hello!
+this repository for nodejs practice parpase

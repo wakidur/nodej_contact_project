@@ -1,0 +1,23 @@
+{
+  "name": "nodej_contact_project",
+  "version": "0.0.1",
+  "description": "nodejs contact list project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakidur/nodej_contact_project.git"
+  },
+  "keywords": [
+    "text",
+    "project"
+  ],
+  "author": "wakidur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wakidur/nodej_contact_project/issues"
+  },
+  "homepage": "https://github.com/wakidur/nodej_contact_project#readme"
+}
