@@ -1,0 +1,29 @@
+{
+  "name": "node_express",
+  "version": "0.0.1",
+  "private": false,
+  "description": "build node express app",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wakidur/nodejs_project.git"
+  },
+  "keywords": [
+    "nice"
+  ],
+  "author": "Wakidur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wakidur/nodejs_project/issues"
+  },
+  "homepage": "https://github.com/wakidur/nodejs_project#readme"
+}

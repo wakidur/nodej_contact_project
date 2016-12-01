@@ -1,0 +1,26 @@
+{
+  "name": "express_practice",
+  "version": "0.0.1",
+  "description": "Express and Node practice ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wakidur/nodejs_project.git"
+  },
+  "keywords": [
+    "Practice"
+  ],
+  "author": "Wakidur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wakidur/nodejs_project/issues"
+  },
+  "homepage": "https://github.com/wakidur/nodejs_project#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11"
+  }
+}
