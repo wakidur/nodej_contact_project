@@ -57,9 +57,7 @@ function create(userParam) {
     var deferred = Q.defer();
 
     // validation
-    db.users.findOne(
-        { username: userParam.username },
-        function (err, user) {
+    db.users.findOne({ username: userParam.username }, function (err, user) {
             if (err) deferred.reject(err);
 
             if (user) {
@@ -77,11 +75,9 @@ function create(userParam) {
         // add hashed password to user object
         user.hash = bcrypt.hashSync(userParam.password, 10);
 
-        db.users.insert(
-            user,
-            function (err, doc) {
+        db.users.insert( user, function (err, doc) {
                 if (err) deferred.reject(err);
-
+                
                 deferred.resolve();
             });
     }
